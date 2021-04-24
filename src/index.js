@@ -17,7 +17,7 @@ function addImages (imageSRC){
 imagecontainer.appendChild(img)
 }
 //Add img
-function addimages(){
+function postimages(){
   fetchImages()
   .then(object => object.message.forEach (object => {addImages(object)}))
 }
@@ -84,9 +84,9 @@ document.addEventListener('DOMContentLoaded', function(){
     addImages()
     postImages()
     fetchBreeds()
-    addList()
+    AddBreedList()
     postBreeds()
     fetchBreedsList()
-    findByDropdownMenu()
+    dropDownMenu()
     changeTextColor()
 })
