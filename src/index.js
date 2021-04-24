@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function(){
     postImages()
     fetchBreeds()
     AddBreedList()
-    postBreeds()
+    addBreeds()
     fetchBreedsList()
     dropDownMenu()
     changeTextColor()
